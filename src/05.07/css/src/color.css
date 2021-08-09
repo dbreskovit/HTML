@@ -1,0 +1,7 @@
+:root {
+    --navbar-active:rgb(155, 84, 246);
+    --paragraph: rgb(98, 101, 104);
+    --shadow: rgba(0, 0, 0, 0.025);
+    --background: rgb(0, 0, 0);
+    --footer: rgb(191, 196, 205);
+  }

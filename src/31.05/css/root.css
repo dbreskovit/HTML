@@ -1,0 +1,90 @@
+* {margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: Arial;
+  box-sizing: content-box;}
+
+/*Imagens de Background Global*/
+#Home
+{
+  background: url(../assets/art/runeterra_splash.png) #000 no-repeat fixed;
+  background-size: cover;
+}
+
+#Bandopolis
+{
+  background: url(../assets/art/bandle-city_splash.jpg) #000 no-repeat fixed;
+  background-size: cover;
+}
+
+#Demacia
+{
+  background: url(../assets/art/demacia_splash.jpg) #000 no-repeat fixed;
+  background-size: cover;
+}
+
+#Freljord
+{
+  background: url(../assets/art/freljord_splash.jpg) #000 no-repeat fixed;
+  background-size: cover;
+}
+
+#Ilhas
+{
+  background: url(../assets/art/shadow-isles_splash.jpg) #000 no-repeat fixed;
+  background-size: cover;
+}
+
+#Ionia
+{
+  background: url(../assets/art/ionia-01.jpg) #000 no-repeat fixed;
+  background-size: cover;
+}
+
+#Ixtal
+{
+  background: url(../assets/art/ixtal_splash.jpg) #000 no-repeat fixed;
+  background-size: cover;
+}
+
+#Noxus
+{
+  background: url(../assets/art/noxus_splash.jpg) #000 no-repeat fixed;
+  background-size: cover;
+}
+
+#Vazio
+{
+  background: url(../assets/art/void-an-unknowable-power.jpg) #000 no-repeat fixed;
+  background-size: cover;
+}
+
+#Piltover
+{
+  background: url(../assets/art/piltover_splash.jpg) #000 no-repeat fixed;
+  background-size: cover;
+}
+
+#Shurima
+{
+  background: url(../assets/art/shurima_splash.jpg) #000 no-repeat fixed;
+  background-size: cover;
+}
+
+#Targon
+{
+  background: url(../assets/art/mount-targon_splash.jpg) #000 no-repeat fixed;
+  background-size: cover;
+}
+
+#Zaun
+{
+  background: url(../assets/art/zaun_splash.jpg) #000 no-repeat fixed;
+  background-size: cover;
+}
+
+#Sentina
+{
+  background: url(../assets/art/bilgewater_splash.jpg) #000 no-repeat fixed;
+  background-size: cover;
+}

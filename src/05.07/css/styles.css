@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+@import url(src/bootstrap.css);
+@import url(src/type_animation.css);
+@import url(src/color.css);
+
+body::-webkit-scrollbar{display: none}
+
+body, p 
+{
+	color: var(--paragraph); 
+	font: 400 14px "Open Sans", sans-serif;
+}
+
+h1 {font-weight: 700}
+
+.navbar 
+{
+	background-color: var(--background);
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 14px;
+	box-shadow: 0 1px 6px 0 var(--shadow);
+}
+
+.navbar .navbar-brand 
+{
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.navbar .logo-image img 
+{
+    width: 32px;
+}
+
+.navbar .navbar-nav 
+{
+	margin-top: 12px;
+	margin-bottom: 8px;
+}
+
+.navbar .nav-item .nav-link 
+{
+	color: rgb(238, 238, 238);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-decoration: none;
+	transition: all 0.2s ease;
+}
+
+.navbar .nav-item .nav-link:hover
+{
+	color: var(--navbar-active)
+}
+
+.navbar .nav-item .active
+{
+	color: var(--navbar-active) !important;
+}
+
+.offcanvas-collapse 
+{
+	background-color: var(--background);
+	position: fixed;
+	top: 52px;
+	bottom: 0;
+	left: 100%;
+	width: 100%;
+	padding-right: 16px;
+	padding-left: 16px;
+	overflow-y: auto;
+	visibility: hidden;
+	transition: visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
+	transition: transform .3s ease-in-out, visibility .3s ease-in-out;
+	transition: transform .3s ease-in-out, visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
+}
+
+.header 
+{
+	padding-top: 112px;
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://cdn.discordapp.com/attachments/856592234761158657/867541553857691648/a.gif'), var(--background) center center no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100vh;
+}
+
+.region 
+{
+	padding-top: 160px;
+	padding-bottom: 160px;
+}
+
+.region .text-container 
+{
+	text-align: justify;
+}
+
+.region .heading 
+{
+	display: inline-block;
+	margin-top: 4px;
+	margin-bottom: 22px;
+}
+
+.footer 
+{
+	padding-top: 104px;
+	padding-bottom: 32px;
+	background-color: #000000;
+}
+
+.footer a 
+{
+	text-decoration: none;
+}
+
+.footer .footer-col 
+{
+	margin-bottom: 48px;
+}
+
+.footer h6 
+{
+	margin-bottom: 10px;
+	color: var(--footer);
+}
+
+.footer p,
+.footer a,
+.footer ul 
+{
+	color: var(--footer);
+}
+
+.footer .li-space-lg li 
+{
+	margin-bottom: 6px;
+}
+
+
+
+
+
+
+/*Media Queries*/
+@media (min-width: 768px) 
+{
+
+.header {padding-top: 160px}
+.header .text-container {margin-bottom: 144px}
+
+@media (min-width: 992px) 
+{
+.navbar 
+{
+	padding-top: 28px;
+	background-color: transparent;
+	box-shadow: none;
+	transition: all 0.2s;
+}
+
+.navbar.top-nav-collapse 
+{
+	padding-top: 8px;
+	padding-bottom: 8px;
+	background-color: #000000;
+	box-shadow: 0 3px 6px 0 var(--shadow);
+}
+
+.offcanvas-collapse 
+{
+	position: static;
+	top: auto;
+	bottom: auto;
+	left: auto;
+	width: auto;
+	padding-right: 0;
+	padding-left: 0;
+	background-color: transparent;
+	overflow-y: visible;
+	visibility: visible;
+}
+
+.offcanvas-collapse.open 
+{
+	-webkit-transform: none;
+	transform: none;
+}
+
+.navbar .navbar-nav 
+{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.navbar .nav-item .nav-link 
+{
+	padding-right: 10px;
+	padding-left: 10px;
+}
+}
+
+.region .text-container {margin-bottom: 0}
+.footer .footer-col {margin-bottom: 32px}
+
+.footer .footer-col.first 
+{
+	display: inline-block;
+	width: 320px;
+	margin-right: 28px;
+	vertical-align: top;
+}
+
+.footer .footer-col.second 
+{
+	display: inline-block;
+	width: 320px;
+	margin-right: 28px;
+	vertical-align: top;
+}
+
+.footer .footer-col.third 
+{
+	display: inline-block;
+	width: 224px;
+	text-align: right;
+	vertical-align: top;
+}
+}
+
+@media (min-width: 1200px) 
+{
+.navbar .container {max-width: 1430px}
+
+.header 
+{
+	position: relative;
+	padding-top: 248px;
+	padding-bottom: 416px;
+}
+
+.region 
+{padding-top: 200px;}
+
+.region .text-container 
+{
+	margin-top: 56px;
+	margin-right: 64px;
+}
+
+.region .image-container {margin-left: 24px}
+
+.footer .footer-col.first 
+{
+
+	width: 352px;
+	margin-right: 96px;
+}
+
+.footer .footer-col.second {margin-right: 104px}
+
+.footer .footer-col.third {text-align: right}
+}

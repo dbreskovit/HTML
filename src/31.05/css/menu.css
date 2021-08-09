@@ -1,0 +1,69 @@
+header 
+{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  position: fixed;
+  overflow: hidden;
+  justify-content: space-between;
+  width: 100%;
+  top: 0; 
+  transition: 700ms;
+  background: rgb(17, 17, 17);
+  z-index: +1;
+}
+
+header a
+{
+  color: white;
+  text-decoration: none;
+}
+
+header:hover
+{
+  transition: 700ms;
+  backdrop-filter: blur(8px); 
+  background-color: rgba(17, 17, 17, 0.7);
+}
+
+.menu 
+{display: flex}
+
+.menu li 
+{
+  margin-left: 10px;
+  list-style: none;
+}
+
+.menu li a 
+{
+  display: block;
+  padding: 10px;
+}
+
+header svg 
+{
+  position: relative;
+  margin-left: 10px;
+}
+
+li img
+{
+  transition: 200ms;
+  width: 30px;
+}
+
+li a img:hover
+{
+  transition: 200ms;
+  transform: scale(1.2);
+}
+
+.Logo 
+{
+  display: inline;
+  position: absolute;
+  font-size: 18px;
+  padding: 10px;
+  letter-spacing: 1px;
+}
