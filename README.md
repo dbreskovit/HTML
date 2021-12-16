@@ -1,5 +1,5 @@
 # HTML
-Some of the projects developed in the programming class in the 2nd year of high school. Using HTML, CSS and Javascript.
+Some of the projects developed in the programming class in the 2nd year of high school. Using HTML5, CSS3 and Javascript.
 
 ---
 
