@@ -54,7 +54,7 @@ Follow the steps below:
 $ code .
 ```
 
-Use the <kbd><a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer" style="color:#9644CD;">Live Server</a></kbd> extension to navigate between project directories.
+Use the <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer"><kbd>Live Server</kbd></a> extension to navigate between project directories.
 
 #
 
