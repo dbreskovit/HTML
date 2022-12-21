@@ -33,9 +33,9 @@
 
 <h3 align="center">
   <img src=".github/resources/preview-01.gif" width="49%">
+  <img src=".github/resources/preview-04.gif" width="49%">
   <img src=".github/resources/preview-03.gif" width="49%">
   <img src=".github/resources/preview-02.gif" width="49%">
-  <img src=".github/resources/preview-04.gif" width="49%">
 </h3>
 
 ## 🚀 Getting started
