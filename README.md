@@ -58,6 +58,24 @@ Use the <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.
 
 #
 
+## 🦄 Authors
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/dbreskovit" style="text-decoration: none;color: #9644CD;">
+              <img src="https://unavatar.now.sh/github/dbreskovit" width="100px"/>
+            <br>
+        <sub>
+          <b>Diego</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+#
+
 <p align="center">
     <sub>Copyright © 2022 - dbreskovit</sub><br>
     <sub>Made with 💜 by <a href="https://github.com/dbreskovit" style="text-decoration: none;color: #9644CD;">dbreskovit</sub></a>
