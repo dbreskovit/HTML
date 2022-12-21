@@ -2,7 +2,7 @@
   <img src="./.github/resources/icons/icon.png" width="140px"/>
 </p>
 
-<h1 align="center">HTML</h1>
+<h1 align="center">HTML 5</h1>
 <p align="center">Projects developed in the programming class of the 2nd year of high school.</p>
 
 <h3 align="center">
